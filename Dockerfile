@@ -19,7 +19,7 @@ RUN npm install --omit=dev
 
 COPY --from=builder /app/dist ./dist
 
-ENV PORT=7000
-EXPOSE 7000
+ENV PORT=7860
+EXPOSE 7860
 
 CMD ["npm", "start"]
